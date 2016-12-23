@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="nl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>De Meiboom</title>
+    <meta name="description" content="Snooker - taverne De Meiboom Elegemstraat 50 1700 Dilbeek" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="menu.css" />
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    <link rel="stylesheet" type="text/css" href="responsive.css" />
+    
+</head>
+
+<body id="reservatie">
+    <div id="logo">
+        <img src="img/meiboomnobg.png" alt="logo" draggable="false">
+        <h1>Snooker - Taverne <br class="h1-break"> De Meiboom</h1> 
+    </div>
+    <div class="upperline"></div>
+    <div id='cssmenu'>
+        <ul>
+            <li><a href='index.html'>Meiboom</a> 
+            </li>
+            <li><a href='taverne.html'>Bieren</a> 
+            </li>
+            <li><a href='snooker.html'>Snooker</a> 
+            </li>
+            <li><a href='gallerij.html'>Foto's</a> 
+            </li>
+            <li class="active right"><a href='reservatie.html'>Reservatie</a> 
+            </li>
+        </ul>
+    </div>
+    <div class="bottomline"></div>
+    <div class="container">
+        <div>
+            <h2>RESERVATIEFORMULIER</h2>
+            <p>
+                <img class="icon" alt="icoon betaling" src="img/information3.png">Let op: bij een reservatie wordt een tafel voor MINSTENS 2 opeenvolgende uren gereserveerd</p>
+        </div>
+        <form id="reservatie">
+            <legend name="titel" style="text-align:center;font-size:15px;padding-bottom:10px;"></legend>
+            <input id="Voornaam" type="text" name="Voornaam" placeholder="Voornaam">
+            <br>
+            <input id="Naam" type="text" placeholder="Familienaam">
+            <br>
+            <input id="telefoon" type="text" name="Telefoon" placeholder="Telefoon">
+            <br>
+            <input id="datum" type="date" name="datum">
+            <br>
+            <label for="tijdslot">Tijdslot</label>
+            <select id="tijdslot" name="tijd">
+                <option value="10-12">11u-13u</option>
+                <option value="12-14">13u-15u</option>
+                <option value="14-16">15u-17u</option>
+                <option value="16-18">17u-19u</option>
+                <option value="18-20">19u-21u</option>
+                <option value="20-22">21u-23u</option>
+            </select>
+            <br>
+            <label for="Tafel">Tafel</label>
+            <select id="tafel" name="tafel">
+                <option value="t1">Tafel 1</option>
+                <option value="t2">Tafel 2</option>
+                <option value="t3">Tafel 3</option>
+                <option value="t4">Tafel 4</option>
+                <option value="t5">Tafel 5</option>
+                <option value="t6">Tafel 6</option>
+                <option value="t7">Tafel 7</option>
+            </select>
+            <br>
+            <input id="aantal" type="number" name="aantal" min="1" max="8" placeholder="aantal">
+            <br>
+            <label for="keu">Eigen keu</label>
+            <select id="keu" name="tafel">
+                <option value="JA">Ja</option>
+                <option value="NEE">Nee</option>
+            </select>
+            <br>
+            <textarea id="commentaar" name="tektsblok" placeholder="Commentaar of bedenkingen"></textarea>
+            <br>
+            <input type="submit" name="submit" value="RESERVEREN">
+        </form>
+    </div>
+
+    <div id="copy">
+        <p>Snooker - Taverne De Meiboom</p>
+    </div>
+
+</body>
+
+</html>
