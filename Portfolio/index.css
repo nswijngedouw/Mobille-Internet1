@@ -1,0 +1,35 @@
+body{
+    background: url(img/tafel.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    font-family: verdana, sans-serif;
+    color: bisque;
+    
+}
+#container{
+    width: 50%;
+    margin: 2em 25% 2em 25%;
+}
+a{
+    text-decoration: none;
+    color:beige
+    
+}
+h1{
+    text-decoration: underline;
+    font-size: 1em;
+    color: deepskyblue;
+}
+a:hover{
+    transition-duration: 0.5s;
+    color: coral;
+}
+h3{
+    font-size: 0.8em;
+    text-indent: 2em;
+}
+h4{
+    font-size: 0.75em;
+    text-indent: 3em;
+    
+}
