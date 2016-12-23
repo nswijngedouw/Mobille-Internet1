@@ -1,0 +1,8 @@
+@media screen and (max-width: 525px) {
+    #cssmenu li {
+        float: none;
+    }
+    #cssmenu li.right {
+        float: none;
+    }
+}

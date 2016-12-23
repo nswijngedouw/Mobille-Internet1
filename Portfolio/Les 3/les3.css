@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, sans-serif;
+}
+.wrapper {
+    widows: 80%;
+    margin: 3em 10% 3em 10%;
+}
+h3{
+    text-decoration: underline;
+    
+}
+h1{
+    text-align: center;
+    width:auto;
+    border: 2px;
+    border-radius: 0.25em;
+    border-style: dotted;
+}
